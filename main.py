@@ -361,7 +361,7 @@ async def format_shopify_response(result: dict, user) -> str:
 
 def main():
     # Try all possible secret names
-    token = os.environ.get("TELEGRAM_TOKEN")
+    token = os.environ.get("8150326438:AAG5Z2GWtilwGG6P_LnHtAl9dj3EQywJdSo")
     if not token:
         # Debugging: List available environment variables (keys only)
         # We saw TELEGRAM_TOKEN in the logs but maybe it was an empty string or something went wrong
